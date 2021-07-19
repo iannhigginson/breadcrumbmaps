@@ -1,0 +1,42 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+      xmlns:maps="nativescript-google-maps-sdk"
+      loaded="historyPageLoaded">
+
+ <ActionBar title=" Breadcrumb Maps" android.iconVisibility="always" class="action-bar">
+   <ActionItem tap="homePage">
+    <Label class="menuItem" text=" Home  " />
+   </ActionItem>
+ </ActionBar>
+
+
+ <GridLayout>
+
+  <maps:mapView mapReady="onMapReady1">
+
+   <maps:mapView.infoWindowTemplate>
+    <StackLayout orientation="vertical"
+                 width="200"
+                 height="150">
+
+     <Label text="{{title}}"
+            className="title"
+            width="125" />
+
+     <Label text="{{snippet}}"
+            className="snippet"
+            width="125" />
+
+     <Label text="{{'LAT: ' + position.latitude}}"
+            className="infoWindowCoordinates" />
+
+     <Label text="{{'LON: ' + position.longitude}}"
+            className="infoWindowCoordinates" />
+
+    </StackLayout>
+   </maps:mapView.infoWindowTemplate>
+
+  </maps:mapView>
+
+ </GridLayout>
+
+</Page>

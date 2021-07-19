@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name">breadcrumbmaps</string>
+ <string name="title_activity_kimera">breadcrumbmaps</string>
+ <string name="nativescript_google_maps_api_key">Your_Api_Key</string>
+</resources>

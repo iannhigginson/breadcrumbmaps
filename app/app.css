@@ -1,0 +1,72 @@
+﻿
+.action-bar{
+ background-color: #272727;
+ color: #fffdd0;
+}
+
+.menuItem {
+ color: #fffdd0;
+ font-size: 14;
+}
+
+.btn {
+ background-color: #272727;
+ border: 2px solid #272700;
+ border-radius: 25px;
+ color: #fffdd0;
+ font-size: 18;
+}
+
+.bordered{
+ background-color: #ffffff;
+ border-radius: 50px;
+ padding: 10px;
+}
+
+.center {
+ text-align: center;
+}
+
+.fLeft {
+ float: left;
+}
+
+.fRight {
+ float: right;
+}
+
+.tLeft{
+ text-align: left;
+ padding-left: 10px;
+}
+
+.tRight{
+ text-align: right;
+ padding-right: 10px;
+}
+
+.header {
+ color: #000000;
+ font-size: 30px;
+}
+
+.page {
+ background-color: #e3defe;
+ font-size: 16px;
+ padding: 5px;
+}
+
+.stdtxt {
+ color: #000000;
+ font-size: 16px;
+ margin-left: 20px;
+ padding: 5px;
+}
+
+.spacer {
+ font-size: 20px;
+}
+
+#layout {
+ padding: 15px;
+}
