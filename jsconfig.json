@@ -1,0 +1,14 @@
+{
+ "compilerOptions": {
+  "baseUrl": ".",
+  "module": "None",
+  "paths": {
+   "@/*": ["."],
+   "$libs": ["js"],
+   "$libs/*": ["js/*"]
+  },
+  "target": "esnext"
+ },
+ "include": ["js/**/*.d.ts", "js/**/*.js"],
+ "exclude": ["node_modules", "**/node_modules", "dist"]
+}
